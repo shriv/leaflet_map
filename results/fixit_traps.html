@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_c5b880f5e36d48d98a1fbec2527fadf6 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_c5b880f5e36d48d98a1fbec2527fadf6" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_c5b880f5e36d48d98a1fbec2527fadf6 = L.map(
+        'map_c5b880f5e36d48d98a1fbec2527fadf6', {
+        center: [-41.3, 174.9],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_4e49634b57e0436e9cf7aacc23013711 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_c5b880f5e36d48d98a1fbec2527fadf6);
+    
+            var feature_group_f3dc3a4ae1b1427995125d71f3bb47d2 = L.featureGroup(
+                ).addTo(map_c5b880f5e36d48d98a1fbec2527fadf6);
+        
+    
+            var circle_marker_09a0e1ed14df4e65912515209aaea8c6 = L.circleMarker(
+                [-41.2882539584, 174.9830824484],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_3fe2574b08dd4961bc36f15cba5326ae = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_a59ec5b9e4204034ae7d7135bf9c6a8c = $(`<div id="html_a59ec5b9e4204034ae7d7135bf9c6a8c" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>SG3<br> <b> Reported: </b>2019-03-23<br> <b> Issue: </b>End mesh needs re-attaching.</div>`)[0];
+                popup_3fe2574b08dd4961bc36f15cba5326ae.setContent(html_a59ec5b9e4204034ae7d7135bf9c6a8c);
+            
+
+            circle_marker_09a0e1ed14df4e65912515209aaea8c6.bindPopup(popup_3fe2574b08dd4961bc36f15cba5326ae)
+            ;
+
+            
+        
+    
+            var circle_marker_a088f56518a8461a84f8894bde234594 = L.circleMarker(
+                [-41.2912919711, 174.9866377146],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_ffe7ae38d620442c8d38c5904ce451aa = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_b6930d97bad84531873f486854da978e = $(`<div id="html_b6930d97bad84531873f486854da978e" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>MW16<br> <b> Reported: </b>2019-08-26<br> <b> Issue: </b>Mesh damaged - may be both ends</div>`)[0];
+                popup_ffe7ae38d620442c8d38c5904ce451aa.setContent(html_b6930d97bad84531873f486854da978e);
+            
+
+            circle_marker_a088f56518a8461a84f8894bde234594.bindPopup(popup_ffe7ae38d620442c8d38c5904ce451aa)
+            ;
+
+            
+        
+    
+            var circle_marker_673f508c00304c058cb76ec08e55548f = L.circleMarker(
+                [-41.291197958000005, 174.98895164169997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_7b1b34f3d76748d7b2fecceda5ecbf2e = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_736b2a74addf4164927b740acacce782 = $(`<div id="html_736b2a74addf4164927b740acacce782" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>UTS2<br> <b> Reported: </b>2019-03-17<br> <b> Issue: </b>Treadle plate rusted out</div>`)[0];
+                popup_7b1b34f3d76748d7b2fecceda5ecbf2e.setContent(html_736b2a74addf4164927b740acacce782);
+            
+
+            circle_marker_673f508c00304c058cb76ec08e55548f.bindPopup(popup_7b1b34f3d76748d7b2fecceda5ecbf2e)
+            ;
+
+            
+        
+    
+            var circle_marker_75232c880c92472abb8cb2658c48984c = L.circleMarker(
+                [-41.311813436, 174.99788674299995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_2a16941453aa472bbc277e61892b77f2 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_20c1dfd20464423f8cbc914b4cc29c21 = $(`<div id="html_20c1dfd20464423f8cbc914b4cc29c21" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WW5A<br> <b> Reported: </b>2019-04-05<br> <b> Issue: </b>Treadle plate rusted out</div>`)[0];
+                popup_2a16941453aa472bbc277e61892b77f2.setContent(html_20c1dfd20464423f8cbc914b4cc29c21);
+            
+
+            circle_marker_75232c880c92472abb8cb2658c48984c.bindPopup(popup_2a16941453aa472bbc277e61892b77f2)
+            ;
+
+            
+        
+    
+            var circle_marker_3ddfcfcebd034a5b92e5d4ca445ef480 = L.circleMarker(
+                [-41.319167732, 174.9960672286],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_5578fb68c58046598b903ea03695547e = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_749ef4f758414ac78ed09afecf8162ab = $(`<div id="html_749ef4f758414ac78ed09afecf8162ab" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WW1<br> <b> Reported: </b>2019-06-29<br> <b> Issue: </b>Triggered no catch</div>`)[0];
+                popup_5578fb68c58046598b903ea03695547e.setContent(html_749ef4f758414ac78ed09afecf8162ab);
+            
+
+            circle_marker_3ddfcfcebd034a5b92e5d4ca445ef480.bindPopup(popup_5578fb68c58046598b903ea03695547e)
+            ;
+
+            
+        
+    
+            var circle_marker_6e467db496dd4a79982243ed48d47af7 = L.circleMarker(
+                [-41.3214768154, 174.9979537619],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_d632b7ffb16947588f8058f73aa419d3 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_5b60f3f4ea1e47f3b559638422a47c08 = $(`<div id="html_5b60f3f4ea1e47f3b559638422a47c08" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WO8A<br> <b> Reported: </b>2019-08-15<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_d632b7ffb16947588f8058f73aa419d3.setContent(html_5b60f3f4ea1e47f3b559638422a47c08);
+            
+
+            circle_marker_6e467db496dd4a79982243ed48d47af7.bindPopup(popup_d632b7ffb16947588f8058f73aa419d3)
+            ;
+
+            
+        
+    
+            var circle_marker_0cf307d72b6a4f0cb84150aac4aba317 = L.circleMarker(
+                [-41.3219831206, 174.99836231400002],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_429a0456b26547dc8eae4f214b76696f = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_86b5210ae5ee427c894e39daf382461b = $(`<div id="html_86b5210ae5ee427c894e39daf382461b" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WO8<br> <b> Reported: </b>2019-03-09<br> <b> Issue: </b>Firing weight too high</div>`)[0];
+                popup_429a0456b26547dc8eae4f214b76696f.setContent(html_86b5210ae5ee427c894e39daf382461b);
+            
+
+            circle_marker_0cf307d72b6a4f0cb84150aac4aba317.bindPopup(popup_429a0456b26547dc8eae4f214b76696f)
+            ;
+
+            
+        
+    
+            var circle_marker_418b6beed8bf41518d530c48f28f0bbe = L.circleMarker(
+                [-41.322403737100004, 174.998518543],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_42eb03e80eee453bbc0edc7d20b8ec38 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_5b30481b21944295acf5c20135a025b4 = $(`<div id="html_5b30481b21944295acf5c20135a025b4" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WO7A<br> <b> Reported: </b>2019-08-15<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_42eb03e80eee453bbc0edc7d20b8ec38.setContent(html_5b30481b21944295acf5c20135a025b4);
+            
+
+            circle_marker_418b6beed8bf41518d530c48f28f0bbe.bindPopup(popup_42eb03e80eee453bbc0edc7d20b8ec38)
+            ;
+
+            
+        
+    
+            var circle_marker_8fd476e8f76145949167d3866b5f8bc1 = L.circleMarker(
+                [-41.322403737100004, 174.998518543],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_f6585b36047b4053b0855ca41756019e = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_9028c3bf82bc46698c60d5d4a0808ed5 = $(`<div id="html_9028c3bf82bc46698c60d5d4a0808ed5" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WO7A<br> <b> Reported: </b>2019-03-09<br> <b> Issue: </b>Setting loop almost rusted through</div>`)[0];
+                popup_f6585b36047b4053b0855ca41756019e.setContent(html_9028c3bf82bc46698c60d5d4a0808ed5);
+            
+
+            circle_marker_8fd476e8f76145949167d3866b5f8bc1.bindPopup(popup_f6585b36047b4053b0855ca41756019e)
+            ;
+
+            
+        
+    
+            var circle_marker_0dbf7c67a6b24e03be5da55ef4c29bf4 = L.circleMarker(
+                [-41.323349469200004, 174.99903731830003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_275283a7a2b842958e0213dd53d5907e = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_a650dd4eda624f13b1463dd7d6033605 = $(`<div id="html_a650dd4eda624f13b1463dd7d6033605" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>WO6<br> <b> Reported: </b>2019-03-09<br> <b> Issue: </b>Trap detached from box</div>`)[0];
+                popup_275283a7a2b842958e0213dd53d5907e.setContent(html_a650dd4eda624f13b1463dd7d6033605);
+            
+
+            circle_marker_0dbf7c67a6b24e03be5da55ef4c29bf4.bindPopup(popup_275283a7a2b842958e0213dd53d5907e)
+            ;
+
+            
+        
+    
+            var circle_marker_26cfb047b4ad4daeb7324ca719e7b1a5 = L.circleMarker(
+                [-41.3398603945, 174.95139024],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_831cf570b9774f108dc21c27e6a50a49 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_2a7b92230c024582b277a36d3fadf34b = $(`<div id="html_2a7b92230c024582b277a36d3fadf34b" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>HO2<br> <b> Reported: </b>2019-06-30<br> <b> Issue: </b>Triggered no catch</div>`)[0];
+                popup_831cf570b9774f108dc21c27e6a50a49.setContent(html_2a7b92230c024582b277a36d3fadf34b);
+            
+
+            circle_marker_26cfb047b4ad4daeb7324ca719e7b1a5.bindPopup(popup_831cf570b9774f108dc21c27e6a50a49)
+            ;
+
+            
+        
+    
+            var circle_marker_69a5e4ca1d6948f48ead81aa3b4ed599 = L.circleMarker(
+                [-41.335836907, 174.9581786085],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_ded27a9e3a9c4a0d98a0df02c734ca19 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_56980f1c744f4c1d974670bb9190d8cf = $(`<div id="html_56980f1c744f4c1d974670bb9190d8cf" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>HO6<br> <b> Reported: </b>2019-04-05<br> <b> Issue: </b>Rat caught on way out</div>`)[0];
+                popup_ded27a9e3a9c4a0d98a0df02c734ca19.setContent(html_56980f1c744f4c1d974670bb9190d8cf);
+            
+
+            circle_marker_69a5e4ca1d6948f48ead81aa3b4ed599.bindPopup(popup_ded27a9e3a9c4a0d98a0df02c734ca19)
+            ;
+
+            
+        
+    
+            var circle_marker_cd63fa716cb24b08b3b1ea1548a245c1 = L.circleMarker(
+                [-41.334502268, 174.9598594389],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_c7a5dab8b24f4d239760c7aa5d1a50e8 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_9006cea2ba5f43d28e51ce1be18186a7 = $(`<div id="html_9006cea2ba5f43d28e51ce1be18186a7" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>HO7<br> <b> Reported: </b>2019-04-05<br> <b> Issue: </b>Rat caught on way out</div>`)[0];
+                popup_c7a5dab8b24f4d239760c7aa5d1a50e8.setContent(html_9006cea2ba5f43d28e51ce1be18186a7);
+            
+
+            circle_marker_cd63fa716cb24b08b3b1ea1548a245c1.bindPopup(popup_c7a5dab8b24f4d239760c7aa5d1a50e8)
+            ;
+
+            
+        
+    
+            var circle_marker_7071f71473614e30b0384a13252cf078 = L.circleMarker(
+                [-41.28780808, 175.02297874],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_b916005eaefc499789c447acdc7e28bd = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_f5a88766c3e841479069c40f59b862ff = $(`<div id="html_f5a88766c3e841479069c40f59b862ff" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT25<br> <b> Reported: </b>2019-06-27<br> <b> Issue: </b>Triggered, no catch</div>`)[0];
+                popup_b916005eaefc499789c447acdc7e28bd.setContent(html_f5a88766c3e841479069c40f59b862ff);
+            
+
+            circle_marker_7071f71473614e30b0384a13252cf078.bindPopup(popup_b916005eaefc499789c447acdc7e28bd)
+            ;
+
+            
+        
+    
+            var circle_marker_165f627019754c068ec1c384791c258f = L.circleMarker(
+                [-41.29446385, 175.03424341],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_496561d4d647474a851dfa45132e8eb4 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_509384cc77c64fa5a20e768c47ebaa14 = $(`<div id="html_509384cc77c64fa5a20e768c47ebaa14" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT32<br> <b> Reported: </b>2019-02-06<br> <b> Issue: </b>Did not trigger when weight tested by trapper</div>`)[0];
+                popup_496561d4d647474a851dfa45132e8eb4.setContent(html_509384cc77c64fa5a20e768c47ebaa14);
+            
+
+            circle_marker_165f627019754c068ec1c384791c258f.bindPopup(popup_496561d4d647474a851dfa45132e8eb4)
+            ;
+
+            
+        
+    
+            var circle_marker_a658e832799e4e3598547ee17221e951 = L.circleMarker(
+                [-41.29531406, 175.03404292],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_6781da344e404e6bb88c8d93a86959c3 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_fd0a2bd5b5a84274832accdef8832fb1 = $(`<div id="html_fd0a2bd5b5a84274832accdef8832fb1" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT33<br> <b> Reported: </b>2019-02-06<br> <b> Issue: </b>took 6 attempts to reset</div>`)[0];
+                popup_6781da344e404e6bb88c8d93a86959c3.setContent(html_fd0a2bd5b5a84274832accdef8832fb1);
+            
+
+            circle_marker_a658e832799e4e3598547ee17221e951.bindPopup(popup_6781da344e404e6bb88c8d93a86959c3)
+            ;
+
+            
+        
+    
+            var circle_marker_9b647bebc05442628729bc1cf85ad860 = L.circleMarker(
+                [-41.29683518, 175.03563086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_3025631925094e29a5751526c693cee0 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_3d05cabd05514dfe9339e31fd7a1fc96 = $(`<div id="html_3d05cabd05514dfe9339e31fd7a1fc96" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT34<br> <b> Reported: </b>2019-02-06<br> <b> Issue: </b>hard to reset</div>`)[0];
+                popup_3025631925094e29a5751526c693cee0.setContent(html_3d05cabd05514dfe9339e31fd7a1fc96);
+            
+
+            circle_marker_9b647bebc05442628729bc1cf85ad860.bindPopup(popup_3025631925094e29a5751526c693cee0)
+            ;
+
+            
+        
+    
+            var circle_marker_9060a6ebba0d4edfb4cec45370791637 = L.circleMarker(
+                [-41.29683518, 175.03563086],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_142f8188f651485badac4b3829a56f01 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_343659ae976c429ab5eeafcf182f7c55 = $(`<div id="html_343659ae976c429ab5eeafcf182f7c55" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT34<br> <b> Reported: </b>2019-09-07<br> <b> Issue: </b>not resetting, not catching the dimple. </div>`)[0];
+                popup_142f8188f651485badac4b3829a56f01.setContent(html_343659ae976c429ab5eeafcf182f7c55);
+            
+
+            circle_marker_9060a6ebba0d4edfb4cec45370791637.bindPopup(popup_142f8188f651485badac4b3829a56f01)
+            ;
+
+            
+        
+    
+            var circle_marker_c0facd1d06484b7cb44f39ef81452da3 = L.circleMarker(
+                [-41.29686811, 175.03376875],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_dc37840517eb442f8b646af25739174a = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_3de006c7a3b249379de64c3de69adf1b = $(`<div id="html_3de006c7a3b249379de64c3de69adf1b" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>PT35<br> <b> Reported: </b>2019-02-06<br> <b> Issue: </b>Triggered no catch</div>`)[0];
+                popup_dc37840517eb442f8b646af25739174a.setContent(html_3de006c7a3b249379de64c3de69adf1b);
+            
+
+            circle_marker_c0facd1d06484b7cb44f39ef81452da3.bindPopup(popup_dc37840517eb442f8b646af25739174a)
+            ;
+
+            
+        
+    
+            var circle_marker_8d53642da6d44636b55bce589398f9f2 = L.circleMarker(
+                [-41.280899492399996, 174.98653971169998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_2356342d7f424d00a4d6214edc9b5764 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_2084a766538d464b8ae63ca735d6af0f = $(`<div id="html_2084a766538d464b8ae63ca735d6af0f" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>OW6<br> <b> Reported: </b>2019-07-21<br> <b> Issue: </b>Triggered no catch</div>`)[0];
+                popup_2356342d7f424d00a4d6214edc9b5764.setContent(html_2084a766538d464b8ae63ca735d6af0f);
+            
+
+            circle_marker_8d53642da6d44636b55bce589398f9f2.bindPopup(popup_2356342d7f424d00a4d6214edc9b5764)
+            ;
+
+            
+        
+    
+            var circle_marker_0d5ac65f729545c782102c603f556cfd = L.circleMarker(
+                [-41.3003691559, 174.9809508917],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_4f4dd47ac13c4a5a966c0f9a12510e49 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_f78a616ddbab4a649ba7df524eb7770c = $(`<div id="html_f78a616ddbab4a649ba7df524eb7770c" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>MW9A<br> <b> Reported: </b>2019-01-04<br> <b> Issue: </b>A12 was pulled apart.  Trapper reassembled.  Needs testing and new gas canister. for location see column I to right</div>`)[0];
+                popup_4f4dd47ac13c4a5a966c0f9a12510e49.setContent(html_f78a616ddbab4a649ba7df524eb7770c);
+            
+
+            circle_marker_0d5ac65f729545c782102c603f556cfd.bindPopup(popup_4f4dd47ac13c4a5a966c0f9a12510e49)
+            ;
+
+            
+        
+    
+            var circle_marker_f18f63d43f434834bc29369ca286514e = L.circleMarker(
+                [-41.323387376, 175.00725872529998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_ada5615d89f04a26b60dd0d2688f50ca = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_b5dd009b88184d29a47fcfe86422566e = $(`<div id="html_b5dd009b88184d29a47fcfe86422566e" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW36A<br> <b> Reported: </b>2019-04-09<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_ada5615d89f04a26b60dd0d2688f50ca.setContent(html_b5dd009b88184d29a47fcfe86422566e);
+            
+
+            circle_marker_f18f63d43f434834bc29369ca286514e.bindPopup(popup_ada5615d89f04a26b60dd0d2688f50ca)
+            ;
+
+            
+        
+    
+            var circle_marker_1d759a0d719746b69630ee1123739f8f = L.circleMarker(
+                [-41.3187730366, 175.013138468],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_cd84d43aaa3845c09580ebcc539e0e17 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_410595d45ef242c4807b26c1bb0dc6b1 = $(`<div id="html_410595d45ef242c4807b26c1bb0dc6b1" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW32<br> <b> Reported: </b>2019-05-30<br> <b> Issue: </b>couldnt reset. if black base plate trap, probably should be swapped out</div>`)[0];
+                popup_cd84d43aaa3845c09580ebcc539e0e17.setContent(html_410595d45ef242c4807b26c1bb0dc6b1);
+            
+
+            circle_marker_1d759a0d719746b69630ee1123739f8f.bindPopup(popup_cd84d43aaa3845c09580ebcc539e0e17)
+            ;
+
+            
+        
+    
+            var circle_marker_54439b52644145f0a1112f98b6e7d8ca = L.circleMarker(
+                [-41.312788389299996, 175.0159897661],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_0e116748d8724b4a9a5081b4cff72c47 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_905a54c3105f4be8b54132d6dd2b848b = $(`<div id="html_905a54c3105f4be8b54132d6dd2b848b" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW28A<br> <b> Reported: </b>2019-08-25<br> <b> Issue: </b>triggered no catch</div>`)[0];
+                popup_0e116748d8724b4a9a5081b4cff72c47.setContent(html_905a54c3105f4be8b54132d6dd2b848b);
+            
+
+            circle_marker_54439b52644145f0a1112f98b6e7d8ca.bindPopup(popup_0e116748d8724b4a9a5081b4cff72c47)
+            ;
+
+            
+        
+    
+            var circle_marker_728ad1c658ab4a20972fd4be3f7c9f0a = L.circleMarker(
+                [-41.3019067317, 175.0134842331],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_3d09a77a0caf47298eb681e918ffe35c = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_509694e4f85a4b79b51ce0595f4f0c50 = $(`<div id="html_509694e4f85a4b79b51ce0595f4f0c50" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW22A<br> <b> Reported: </b>2019-09-07<br> <b> Issue: </b>fired not catch.</div>`)[0];
+                popup_3d09a77a0caf47298eb681e918ffe35c.setContent(html_509694e4f85a4b79b51ce0595f4f0c50);
+            
+
+            circle_marker_728ad1c658ab4a20972fd4be3f7c9f0a.bindPopup(popup_3d09a77a0caf47298eb681e918ffe35c)
+            ;
+
+            
+        
+    
+            var circle_marker_e52efa78b85745ecb5bed15332091b47 = L.circleMarker(
+                [-41.2922987411, 175.0164262286],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_bb6cc2106a4e461cb3442a2b4aecc185 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_00abc97b36864f3daff5ae4fbef79c12 = $(`<div id="html_00abc97b36864f3daff5ae4fbef79c12" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW17A<br> <b> Reported: </b>2019-09-07<br> <b> Issue: </b>swap out, plate rusted</div>`)[0];
+                popup_bb6cc2106a4e461cb3442a2b4aecc185.setContent(html_00abc97b36864f3daff5ae4fbef79c12);
+            
+
+            circle_marker_e52efa78b85745ecb5bed15332091b47.bindPopup(popup_bb6cc2106a4e461cb3442a2b4aecc185)
+            ;
+
+            
+        
+    
+            var circle_marker_b46325215de34d4dbe0cc05bea2c963a = L.circleMarker(
+                [-41.2922987411, 175.0164262286],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_8d3338a5c265486b8a85865154458c94 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_6c3e418ba933479eac6d42daa9ae4168 = $(`<div id="html_6c3e418ba933479eac6d42daa9ae4168" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW17A<br> <b> Reported: </b>2019-07-26<br> <b> Issue: </b>Treadle plate rusted out</div>`)[0];
+                popup_8d3338a5c265486b8a85865154458c94.setContent(html_6c3e418ba933479eac6d42daa9ae4168);
+            
+
+            circle_marker_b46325215de34d4dbe0cc05bea2c963a.bindPopup(popup_8d3338a5c265486b8a85865154458c94)
+            ;
+
+            
+        
+    
+            var circle_marker_e3315273e0154fbfa0378f9e052bbe6d = L.circleMarker(
+                [-41.2896791827, 175.0096473454],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_05e13a985c354cf58cc0b877bfcee70f = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_084af894f7074e48a3744fae432a63da = $(`<div id="html_084af894f7074e48a3744fae432a63da" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW13A<br> <b> Reported: </b>2019-07-26<br> <b> Issue: </b>Very rusty, hard to reset</div>`)[0];
+                popup_05e13a985c354cf58cc0b877bfcee70f.setContent(html_084af894f7074e48a3744fae432a63da);
+            
+
+            circle_marker_e3315273e0154fbfa0378f9e052bbe6d.bindPopup(popup_05e13a985c354cf58cc0b877bfcee70f)
+            ;
+
+            
+        
+    
+            var circle_marker_fd1f5b91e12241cb9b9c965beaa58c83 = L.circleMarker(
+                [-41.2880601904, 174.9891429094],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_d6326f0ab66549519d90a47661e7b3c8 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_c217be0f033341dd847772ef56a06658 = $(`<div id="html_c217be0f033341dd847772ef56a06658" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>EW1A<br> <b> Reported: </b>2019-08-25<br> <b> Issue: </b>Very rusty, hard to reset</div>`)[0];
+                popup_d6326f0ab66549519d90a47661e7b3c8.setContent(html_c217be0f033341dd847772ef56a06658);
+            
+
+            circle_marker_fd1f5b91e12241cb9b9c965beaa58c83.bindPopup(popup_d6326f0ab66549519d90a47661e7b3c8)
+            ;
+
+            
+        
+    
+            var circle_marker_e651fe15e618486f92478977549c7537 = L.circleMarker(
+                [-41.2789800026, 174.97555643709995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_5cd02844f71241ee8f16e94734483ee5 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_83c4de9f3a624f0dba6ae944ae398c7e = $(`<div id="html_83c4de9f3a624f0dba6ae944ae398c7e" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>OW13<br> <b> Reported: </b>2019-09-08<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_5cd02844f71241ee8f16e94734483ee5.setContent(html_83c4de9f3a624f0dba6ae944ae398c7e);
+            
+
+            circle_marker_e651fe15e618486f92478977549c7537.bindPopup(popup_5cd02844f71241ee8f16e94734483ee5)
+            ;
+
+            
+        
+    
+            var circle_marker_e115d6570c1249c59cc567cfa072edda = L.circleMarker(
+                [-41.280899492399996, 174.98653971169998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_8c1539f0c847480fa40e1900890fd800 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_6648fc3b7de543f692861d6c06edef90 = $(`<div id="html_6648fc3b7de543f692861d6c06edef90" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>OW6<br> <b> Reported: </b>2019-07-21<br> <b> Issue: </b>Triggered no catch</div>`)[0];
+                popup_8c1539f0c847480fa40e1900890fd800.setContent(html_6648fc3b7de543f692861d6c06edef90);
+            
+
+            circle_marker_e115d6570c1249c59cc567cfa072edda.bindPopup(popup_8c1539f0c847480fa40e1900890fd800)
+            ;
+
+            
+        
+    
+            var circle_marker_559e24881f7f4d4fa43d2e82dcd8528d = L.circleMarker(
+                [-41.2838984542, 174.99021175139995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_b0585e836a77447b98ca4bd65a5a031e = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_8ef175831d794d1fa1857c4c3c10e444 = $(`<div id="html_8ef175831d794d1fa1857c4c3c10e444" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>OW3<br> <b> Reported: </b>2019-08-27<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_b0585e836a77447b98ca4bd65a5a031e.setContent(html_8ef175831d794d1fa1857c4c3c10e444);
+            
+
+            circle_marker_559e24881f7f4d4fa43d2e82dcd8528d.bindPopup(popup_b0585e836a77447b98ca4bd65a5a031e)
+            ;
+
+            
+        
+    
+            var circle_marker_2c9dfef02bc342a790e15ab0d5310993 = L.circleMarker(
+                [-41.271251753099996, 174.9955603497],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                )
+                .addTo(feature_group_f3dc3a4ae1b1427995125d71f3bb47d2);
+            
+    
+            var popup_d2bee40e778e4ba9a0104584064d0198 = L.popup({maxWidth: '450'
+            
+            });
+
+            
+                var html_3c8e614fdc20421295e7c5a1732a138f = $(`<div id="html_3c8e614fdc20421295e7c5a1732a138f" style="width: 100.0%; height: 100.0%;"><b> Trap: </b>ST6<br> <b> Reported: </b>2019-09-08<br> <b> Issue: </b>Trap sprung but no catch</div>`)[0];
+                popup_d2bee40e778e4ba9a0104584064d0198.setContent(html_3c8e614fdc20421295e7c5a1732a138f);
+            
+
+            circle_marker_2c9dfef02bc342a790e15ab0d5310993.bindPopup(popup_d2bee40e778e4ba9a0104584064d0198)
+            ;
+
+            
+        
+    
+            var layer_control_91b2f94ed0da43a180fc70d0d9df6716 = {
+                base_layers : { "openstreetmap" : tile_layer_4e49634b57e0436e9cf7aacc23013711, },
+                overlays : { "Traps" : feature_group_f3dc3a4ae1b1427995125d71f3bb47d2, }
+                };
+            L.control.layers(
+                layer_control_91b2f94ed0da43a180fc70d0d9df6716.base_layers,
+                layer_control_91b2f94ed0da43a180fc70d0d9df6716.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_c5b880f5e36d48d98a1fbec2527fadf6);
+            
+        
+</script>
